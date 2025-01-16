@@ -1,0 +1,45 @@
+/* top nav */
+/* main */
+.nav-bar {
+    background-color: var(--coffee-color);
+    color: var(--white-color);
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+}
+
+/* left part */
+.left-hold {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.left-hold a {
+    border: solid var(--gold-color) 4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/* right part */
+.nav-bar a {
+    color: var(--white-color);
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.nav-bar a:hover {
+    color: var(--gold-color);
+}
+
+.nav-bar button {
+    background-color: var(--gold-sub-color);
+    color: var(--dark-color);
+}
+
+.nav-bar button:hover {
+    background:  linear-gradient(to right, var(--gold-color), var(--gold-sub-color));;
+}
+
+/* end of top nav */
