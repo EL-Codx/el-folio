@@ -1,8 +1,7 @@
 :root {
-    --maroon-color: #800000;
-    --white-color: #FFFFFF;
-    --gold-color: #FFD700;
-    --coffee-color: #440101;
-    --dark-color: #141414;
-    --gold-sub-color: #f7efc4;
+    /* color palette */
+    --primary-color: #0f0518;
+    --secondary-color: #7200dd;
+    --secondary-dark-color: #2e0059;
+    --white-color: #cecece;
 }

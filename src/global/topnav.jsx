@@ -1,6 +1,5 @@
 import React from "react";
-import '../assets/css/colors.css';
-import '../assets/css/topnav.css'
+import '../assets/css/header.css'
 
 export const Topnav = () => {
     return (
@@ -13,9 +12,9 @@ export const Topnav = () => {
                 <a href="#">Home</a>
                 <a href="#">Services</a>
                 <a href="#">Profile</a>
-                <a href="#">Portfolio</a>
+                {/* <a href="#">Portfolio</a> */}
                 <a href="#">Contact</a>
-                <button id="download">Download CV</button>
+                <button id="download">Hire Me!</button>
             </div>
         </nav>
     )
