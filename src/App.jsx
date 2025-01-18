@@ -16,12 +16,12 @@ function App() {
           <Highlights />
           <Details />
         </header>
-        {/* <div className="content">
+        <div className="content">
           body
         </div>
         <footer className="footer">
           footer
-        </footer> */}
+        </footer>
       </div>
     </>
   )
