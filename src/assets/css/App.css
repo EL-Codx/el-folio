@@ -91,3 +91,32 @@
       flex: 1 1 100%; /* 1 item per row on small screens */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* svg icon rotation */
+.rotate-svg {
+  animation: blink 0.3s step-start infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+      opacity: 1; /* Visible */
+  }
+  51%, 100% {
+      opacity: 0; /* Hidden */
+  }
+}
+
