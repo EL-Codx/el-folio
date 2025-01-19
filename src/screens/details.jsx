@@ -10,7 +10,7 @@ export const Details = () => {
     return (
         <div className="details-container">
             <div className="services">
-                <h1 className="service-title">What I offer</h1>
+                <h1 className="service-title all-title">What I offer</h1>
                 <div className="service-content">
                     {/* website dev */}
                     <Card 

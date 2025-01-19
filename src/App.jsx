@@ -3,6 +3,7 @@ import { Topnav } from "./global/topnav"
 import { Headliner } from "./screens/headfiling"
 import { Highlights } from "./screens/highligt"
 import { Details } from "./screens/details"
+import { Skills } from "./screens/skills"
 
 // import any module needed here
 function App() {
@@ -13,11 +14,11 @@ function App() {
         <header className="header-container">
           <Topnav />
           <Headliner />
-          <Highlights />
-          <Details />
         </header>
         <div className="content">
-          body
+          <Highlights />
+          <Details />
+          <Skills />
         </div>
         <footer className="footer">
           footer

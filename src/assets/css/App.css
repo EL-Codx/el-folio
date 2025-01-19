@@ -31,7 +31,8 @@
   align-items: center;
 }
 
-.card-container:hover {
+.card-container:hover, .singular-card:hover {
+  cursor: pointer;
   border: solid var(--secondary-color) 5px;
   border-right: none;
   border-left: none;
@@ -59,9 +60,9 @@
 
 /* services */
 
-.services h1 {
-  text-align: center;
-  margin-bottom: 30px;
+.details-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .service-content {
@@ -71,27 +72,93 @@
   gap: 30px;
 }
 
+.all-title {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, var(--secondary-color) 15%, var(--white-color), var(--white-color));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-title, .skill-main-title {
+  font-size: 3em;
+}
+
 .box {
-  flex: 1 1 calc(30% - 10px); /* 3 items per row by default */
+  flex: 1 1 calc(30% - 10px); /* default: 3 cards per row */
   height: 350px;
   padding: 20px;
-  /* text-align: center; */
   border-radius: 5px;
   box-sizing: border-box;
 }
 
+.skill-list {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 25px;
+  text-align: center;
+}
+
+.skill-brief {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+}
+
+.skill-logo {
+  height: 80px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.singular-card {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: var(--secondary-transpo-color);
+  border: solid var(--secondary-transpo-color) 5px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  text-align: center;
+  border-radius: 10px;
+  flex: 1 1 calc(16.66% - 10px);
+  box-sizing: border-box;
+}
+
+.singular-card p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.skills-container p {
+  font-size: 1.5em;
+}
+
+
+/* different screens */
+
 @media (max-width: 768px) {
   .box {
-      flex: 1 1 calc(50% - 10px); /* 2 items per row on medium screens */
+      flex: 1 1 calc(50% - 10px); /* 2 card per row */
+  }
+
+  .singular-card {
+    flex: 1 1 calc(30% - 10px); /* 2 card per row */
   }
 }
 
 @media (max-width: 480px) {
   .box {
-      flex: 1 1 100%; /* 1 item per row on small screens */
+      flex: 1 1 100%; /* a card per row */
+  }
+
+  .singular-card {
+    flex: 1 1 calc(50% - 10px); /* a card per row */
   }
 }
 
+/* end of services */
 
 
 
@@ -107,16 +174,16 @@
 
 
 /* svg icon rotation */
-.rotate-svg {
+/* .rotate-svg {
   animation: blink 0.3s step-start infinite;
-}
+} */
 
-@keyframes blink {
+/* @keyframes blink {
   0%, 50% {
-      opacity: 1; /* Visible */
+      opacity: 1; 
   }
   51%, 100% {
-      opacity: 0; /* Hidden */
+      opacity: 0;
   }
-}
+} */
 

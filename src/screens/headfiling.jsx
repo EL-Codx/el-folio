@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/header.css'
-import me from '../assets/images/image.png'
+import me from '../assets/images/personal_pictures/image.png'
 
 export const Headliner = () => {
     return (
@@ -11,7 +11,7 @@ export const Headliner = () => {
                 <p className="marginary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
                 <div className="details-btn">
                     <button className="btn-more">
-                        Readmore...
+                        Read more...
                     </button>
                     <button className="btn-download">
                         Download CV
