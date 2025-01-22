@@ -4,6 +4,8 @@ import { Headliner } from "./screens/headfiling"
 import { Highlights } from "./screens/highligt"
 import { Details } from "./screens/details"
 import { Skills } from "./screens/skills"
+import { Contactform } from "./screens/form"
+import { Media } from "./screens/medias"
 
 // import any module needed here
 function App() {
@@ -16,12 +18,14 @@ function App() {
           <Headliner />
         </header>
         <div className="content">
-          <Highlights />
+          {/* <Highlights /> */}
           <Details />
           <Skills />
+          <Contactform />
         </div>
-        <footer className="footer">
-          footer
+        <footer>
+          {/* <Media /> */}
+          <p>© Emmanuel Laryea 2025</p>
         </footer>
       </div>
     </>

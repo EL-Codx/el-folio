@@ -1,8 +1,11 @@
 :root {
     /* color palette */
-    --primary-color: #0f0518;
+    --primary-color: #12061d;
     --secondary-color: #7200dd;
+    --secondary-opac-color: #7200ddbe;
     --secondary-dark-color: #2e0059;
     --white-color: #cecece;
+    --white-opac-color: #cecece28;
+    --footer-color: #cececea1;
     --secondary-transpo-color: rgba(28, 22, 34, 0.753);
 }

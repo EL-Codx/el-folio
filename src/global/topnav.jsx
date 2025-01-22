@@ -6,7 +6,7 @@ export const Topnav = () => {
         <nav className="nav-bar">
             <div className="left-hold">
                 <h3>EL-Codx</h3>
-                <a href="#">GitHub</a>
+                <a href="#" className="hub">GitHub</a>
             </div>
             <div className="right-hold">
                 <a href="#">Home</a>
@@ -14,7 +14,7 @@ export const Topnav = () => {
                 <a href="#">Profile</a>
                 {/* <a href="#">Portfolio</a> */}
                 <a href="#">Contact</a>
-                <button id="download">Hire Me!</button>
+                <a id="hire">Hire Me!</a>
             </div>
         </nav>
     )

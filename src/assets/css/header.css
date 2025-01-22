@@ -5,7 +5,8 @@
     color: var(--white-color);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+    margin-top: 10px;
 }
 
 /* left part */
@@ -33,18 +34,16 @@
     color: var(--secondary-color);
 }
 
-button {
+button, .hire {
     font-weight: 600;
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
 
-button:hover {
+button:hover, .hire:hover {
     background:  linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));;
     cursor: pointer;
 }
-
-/* end of top nav */
 
 
 /* headline */
@@ -53,13 +52,24 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 350px;
-    width: 100%; */
 }
 
-img {
-    height: 200px;
-    width: 200px;
+.right-liner, .left-liner {
+    z-index: 1;
+}
+
+.imagery {
+    flex: 1;
+    text-align: end;
+}
+
+.imagery img {
+    height: 60%;
+    width: 60%;
+    transform: rotate(10deg);
+    border-radius: 30px;
+    border: solid var(--secondary-color) 5px;
+    box-shadow: 0 0 20px 5px var(--secondary-color);
 }
 
 .marginary {
@@ -73,8 +83,11 @@ img {
 .left-liner h1 {
     display: flex;
     flex-direction: column;
-    font-size: 5em;
-    font-weight: bold;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.left-liner h1 span {
     color: var(--secondary-color);
 }
 

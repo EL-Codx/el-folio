@@ -1,3 +1,12 @@
+/* container */
+.main-container, .head-container, content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ 
+
 /* highlights */
 .highlight-container {
   margin-top: 50px;
@@ -52,17 +61,18 @@
 
 .card-body-content p {
   font-size: 1.2em;
-  /* text-align: justify; */
 }
 
-/* card ends here */
+/* .skills-container {
+  background: radial-gradient(circle, var(--secondary-color) 10%, var(--primary-color) 20%,  var(--secondary-color), var(--primary-color) 50%, transparent 100%);
+} */
 
 
 /* services */
 
 .details-container {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .service-content {
@@ -74,15 +84,7 @@
 
 .all-title {
   text-align: center;
-  margin-bottom: 30px;
-  background: linear-gradient(90deg, var(--secondary-color) 15%, var(--white-color), var(--white-color));
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.service-title, .skill-main-title {
-  font-size: 3em;
+  margin-bottom:100px;
 }
 
 .box {
@@ -101,14 +103,10 @@
   text-align: center;
 }
 
-.skill-brief {
-  margin-bottom: 50px;
-  font-size: 1.2em;
-}
 
 .skill-logo {
   height: 80px;
-  width: 100px;
+  width: 80px;
   margin-bottom: 15px;
 }
 
@@ -136,8 +134,110 @@
 }
 
 
-/* different screens */
+/* form */
+.form-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: solid var(--white-opac-color) 0.1px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: none; 
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 1px solid var(--white-opac-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: 1rem;
+}
+
+input {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--white-opac-color);
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#first-name, 
+#last-name, 
+#email, 
+#phone {
+  width: 300px;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+}
+
+.media-group {
+  display: flex;
+  align-items: center;
+}
+
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer p {
+  color: var(--footer-color);
+  margin-bottom: 150px;
+}
+
+/* different screens */
 @media (max-width: 768px) {
   .box {
       flex: 1 1 calc(50% - 10px); /* 2 card per row */
@@ -146,6 +246,46 @@
   .singular-card {
     flex: 1 1 calc(30% - 10px); /* 2 card per row */
   }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .marginary span {
+    font-size: 2.4rem;
+  }
+
+  .left-liner h3 {
+    font-size: 1rem;
+  } 
+
+  .left-liner h1 {
+    display: inline;
+  }
+
+  .liner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .imagery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .details-btn {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hub {
+    display: none;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -186,4 +326,5 @@
       opacity: 0;
   }
 } */
+
 
