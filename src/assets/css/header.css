@@ -34,13 +34,13 @@
     color: var(--secondary-color);
 }
 
-button, .hire {
+button, #hire {
     font-weight: 600;
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
 
-button:hover, .hire:hover {
+button:hover, #hire:hover {
     background:  linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));;
     cursor: pointer;
 }
@@ -101,9 +101,9 @@ button:hover, .hire:hover {
     border: solid var(--secondary-dark-color) 3px;
 }
 
-.details-btn .btn-more:hover {
+
+.details-btn .btn-more:hover #hire:hover {
     background: linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));
-    /* border: none; */
 }
 
 .left-liner p {
@@ -111,4 +111,46 @@ button:hover, .hire:hover {
     font-weight: 200;
 }
 
-/* end of headline */
+
+/* nav icon */
+.right-hold {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem;
+    display: none;
+}
+
+
+@media (max-width: 980px) {
+    .icon {
+        display: block;
+    }
+
+    .icon:hover {
+        cursor: pointer;
+    }
+
+    .bar a {
+        margin: 0px;
+    }
+
+
+    .bar {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--secondary-transpo-color);
+        gap: 18px;
+        padding: 20px 40px;
+        position: absolute;
+        right: 15%;
+        top: 8%;
+        z-index: 10;
+    }
+
+    .bar.active {
+        display: none;
+    }
+}
