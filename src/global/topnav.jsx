@@ -20,7 +20,6 @@ export const Topnav = () => {
                     <a href="#">Home</a>
                     <a href="#">Services</a>
                     <a href="#">Profile</a>
-                    {/* <a href="#">Portfolio</a> */}
                     <a href="#">Contact</a>
                     <a id="hire">Hire Me!</a>
                 </div>

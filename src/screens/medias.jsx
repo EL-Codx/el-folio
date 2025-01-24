@@ -7,7 +7,6 @@ export const Media = () => {
         <div className="media-container">
             <div className="media-group">
                 <Linkedinsvg height="24" width="24" />
-                {/* <p></p> */}
             </div>
             <div className="media-group">
                 <Fbsvg />
