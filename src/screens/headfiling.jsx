@@ -8,7 +8,7 @@ export const Headliner = () => {
             <div className="left-liner">
                 <h3 className="marginary">Hi, I am Emmanuel Laryea</h3>
                 <h1 className="marginary"><span>Software &</span><span>Web Developer</span></h1>
-                <p className="marginary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                {/* <p className="marginary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p> */}
                 <div className="details-btn">
                     <button className="btn-more">
                         Read more...
