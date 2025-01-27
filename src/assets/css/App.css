@@ -231,11 +231,6 @@ footer p {
     display: inline;
   }
 
-  .liner-container {
-    flex-direction: column;
-
-  }
-
   .imagery {
     display: flex;
     justify-content: center;

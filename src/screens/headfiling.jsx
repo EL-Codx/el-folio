@@ -11,7 +11,7 @@ export const Headliner = () => {
             <div className="left-liner">
                 <h1 className="marginary"><span className="intro">Hi, I am</span> <span>Emmanuel Laryea</span></h1>
                 <h2 className="marginary"><span>Software & </span><span>Web Developer</span></h2>
-                <p className="marginary about">I specialize in creating innovative, user-friendly, and modern digital solutions, including clean, high-performing websites that elevate your business. Transforming ideas into functional and visually stunning digital experiences designed to deliver results. Are you looking for a developer to bring your vision to life? <br /> Let’s build something extraordinary together!</p>
+                <p className="marginary about">Based in Accra, I’m dedicated to creating clean, modern websites and digital solutions that are both user-friendly and innovative. Transforming ideas into functional, visually stunning experiences that deliver results is what I do best. Let’s bring your vision to reality!</p>
                 <div className="details-btn">
                     <button className="btn-more">
                         Read more...

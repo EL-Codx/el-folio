@@ -76,7 +76,7 @@ h1 {
   }
 
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1185px) {
     h1 {
         font-size: 2.5rem;
       }
