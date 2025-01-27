@@ -18,7 +18,7 @@ export const Topnav = () => {
             <div className="right-hold">
                 <div className={isOpen ? "bar active" : "bar"}>
                     <a href="#">Home</a>
-                    <a href="#">Services</a>
+                    <a href="#service-id">Services</a>
                     <a href="#">Profile</a>
                     <a href="#">Contact</a>
                     <a id="hire">Hire Me!</a>

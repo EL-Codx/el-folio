@@ -8,7 +8,7 @@ import { Maintainsvg } from "../global/maintain_svg"
 
 export const Details = () => {
     return (
-        <div className="details-container">
+        <div className="details-container" id="service-id">
             <div className="services">
                 <h1 className="service-title all-title">What I offer</h1>
                 <div className="service-content">

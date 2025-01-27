@@ -5,8 +5,8 @@
     color: var(--white-color);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /* left part */
@@ -15,6 +15,7 @@
     align-items: center;
     gap: 30px;
 }
+
 .left-hold a {
     border: solid var(--secondary-color) 4px;
     border-left: none;
@@ -34,41 +35,31 @@
     color: var(--secondary-color);
 }
 
-button, #hire {
-    font-weight: 600;
-    background-color: var(--secondary-color);
-    color: var(--white-color);
-}
-
-button:hover, #hire:hover {
-    background:  linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));;
-    cursor: pointer;
-}
-
-
 /* headline */
-
 .liner-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 50px;
 }
 
 .right-liner, .left-liner {
     z-index: 1;
 }
 
+.intro {
+    font-size: 1.2rem;
+}
+
 .imagery {
     flex: 1;
-    text-align: end;
+    width: 50%;
 }
 
 .imagery img {
-    height: 60%;
-    width: 60%;
-    transform: rotate(10deg);
+    height: 350px;
+    width: 300px;
     border-radius: 30px;
-    border: solid var(--secondary-color) 5px;
     box-shadow: 0 0 20px 5px var(--secondary-color);
 }
 
@@ -76,18 +67,14 @@ button:hover, #hire:hover {
     margin-bottom: 20px;
 }
 
-.left-liner h3 {
-    font-size: 32px ;
-}
 
 .left-liner h1 {
     display: flex;
     flex-direction: column;
-    font-size: 4rem;
     font-weight: bolder;
 }
 
-.left-liner h1 span {
+.left-liner h2 span {
     color: var(--secondary-color);
 }
 
@@ -111,6 +98,15 @@ button:hover, #hire:hover {
     font-weight: 200;
 }
 
+.socials {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.socials a {
+    font-size: 2.5rem;
+}
 
 /* nav icon */
 .right-hold {
@@ -153,4 +149,17 @@ button:hover, #hire:hover {
     .bar.active {
         display: none;
     }
+
+    .box {
+        flex: 1 1 calc(30% - 10px); /* 2 card per row */
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .imagery img {
+        height: 300px;
+        width: 250px;
+    }
+    
 }

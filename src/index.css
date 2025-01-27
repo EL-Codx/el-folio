@@ -8,36 +8,96 @@ body {
     background-color: var(--primary-color);
     font-size: 1em;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* background: radial-gradient(circle, var(--primary-color) 90%, transparent 100%), 
-              linear-gradient(to right, var(--secondary-opac-color), var(--primary-color) 90%, var(--primary-color) 50%, var(--secondary-opac-color));
-    background-size: 100% 100%; 
-    background-repeat: no-repeat; */
 }
 
 .main-container {
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 button, #hire {
     padding: 10px 25px;
-    font-size: 15px;
+    font-size: 0.9rem;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 100px;
     border: none;
 }
 
+button, #hire {
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+button:hover, #hire:hover {
+    background:  linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+
 h1 {
-    margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.875;
+  }
+
+  nav p, nav a {
+    font-size: 1rem;
+  }
+
+  .about {
+    text-align: justify;
+  }
+
+
+  @media (max-width: 1050px) {
+    h1 {
+        font-size: 2.5rem;
+      }
+    
+      h2 {
+        font-size: 1.5rem;
+      }
+    
+      h3 {
+        font-size: 1.25rem;
+      }
+    
+      h4 {
+        font-size: 1rem;
+      }
+    
+      p {
+        font-size: 0.875;
+      }
+    
+      nav p, nav a {
+        font-size: 1rem;
+      }
   }
