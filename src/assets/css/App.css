@@ -273,6 +273,7 @@ footer p {
   .singular-card {
     flex: 1 1 calc(50% - 10px); /* a card per row */
   }
+
 }
 
 
