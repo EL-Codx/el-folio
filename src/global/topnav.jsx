@@ -13,7 +13,7 @@ export const Topnav = () => {
         <nav className="nav-bar">
             <div className="left-hold">
                 <h3>EL-Codx</h3>
-                <a href="#" className="hub">GitHub</a>
+                <a href="https://github.com/EL-Codx?tab=repositories" target="_blank" className="hub">GitHub</a>
             </div>
             <div className="right-hold">
                 <div className={isOpen ? "bar active" : "bar"}>

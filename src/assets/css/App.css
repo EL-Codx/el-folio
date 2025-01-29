@@ -13,7 +13,6 @@
 
 
 /* card */
-
 .card-container {
   background-color: var(--secondary-transpo-color);
   border: solid var(--secondary-transpo-color) 5px;
@@ -210,6 +209,7 @@ footer {
 }
 footer p {
   color: var(--footer-color);
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 
@@ -275,33 +275,4 @@ footer p {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* svg icon rotation */
-/* .rotate-svg {
-  animation: blink 0.3s step-start infinite;
-} */
-
-/* @keyframes blink {
-  0%, 50% {
-      opacity: 1; 
-  }
-  51%, 100% {
-      opacity: 0;
-  }
-} */
-
 

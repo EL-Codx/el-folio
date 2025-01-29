@@ -1,11 +1,11 @@
-import { Fbsvg } from "../global/fb_svg"
-import { Linkedinsvg } from "../global/linkedin_svg"
-import { Whatsappsvg } from "../global/whatapp_svg"
+import { MdEmail } from "react-icons/md"
+import { IoLogoLinkedin } from "react-icons/io"
+import { FaWhatsappSquare } from "react-icons/fa"
 
 export const Media = () => {
     return (
         <div className="socials">
-            <a href="mailto:laryeaaristotle@gmail.com">
+            <a href="mailto:niilaryea25emma@outlook.com">
                 <MdEmail />
             </a>
             
@@ -13,7 +13,7 @@ export const Media = () => {
                 <IoLogoLinkedin />
             </a>
 
-            <a href="#" target="_blank">
+            <a href="https://wa.link/0k42pt" target="_blank">
                 <FaWhatsappSquare />
             </a>
         </div>
