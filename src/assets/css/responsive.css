@@ -58,13 +58,13 @@
     }
 }
 
-@media (max-width: 1050px) {
+/* @media (max-width: 1050px) {
   .imagery img {
     height: 450px !important;
     width: 400px !important;
     border: none !important;
   }
-}
+} */
 
 @media (max-width: 1185px) {
     h1 {
