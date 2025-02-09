@@ -1,6 +1,6 @@
 export const Contactform = () => {
     return (
-        <div class="form-container">
+        <div class="form-container" id="contact-info">
             <h1>Get in touch</h1>
             <form>
                 <div class="form-row">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../assets/css/header.css'
 import { FaBars } from "react-icons/fa";
+import logo_nav from "../../public/logo/nav_icon.png"
 
 export const Topnav = () => {
     const [isOpen, setIsOpen] = useState(true);
@@ -12,15 +13,15 @@ export const Topnav = () => {
     return (
         <nav className="nav-bar">
             <div className="left-hold">
-                <h3>EL-Codx</h3>
+                <img src={logo_nav} alt="personal logo" className="personal_logo"/>
                 <a href="https://github.com/EL-Codx?tab=repositories" target="_blank" className="hub">GitHub</a>
             </div>
             <div className="right-hold">
                 <div className={isOpen ? "bar active" : "bar"}>
                     <a href="#">Home</a>
                     <a href="#service-id">Services</a>
-                    <a href="#">Profile</a>
-                    <a href="#">Contact</a>
+                    {/* <a href="#">Profile</a> */}
+                    <a href="#contact-info">Contact</a>
                     <a id="hire">Hire Me!</a>
                 </div>
                 <div className="icon" onClick={togglemenu}>

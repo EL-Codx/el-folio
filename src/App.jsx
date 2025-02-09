@@ -5,6 +5,7 @@ import { Details } from "./screens/details"
 import { Skills } from "./screens/skills"
 import { Contactform } from "./screens/form"
 import { Media } from "./screens/medias"
+import personal_logo from "../public/logo/footer_icon.png"
 
 function App() {
 
@@ -21,8 +22,13 @@ function App() {
           <Contactform />
         </div>
         <footer>
-          <Media />
-          <p>© Emmanuel Laryea 2025</p>
+          <div>
+            <Media />
+            <p>© Emmanuel Laryea 2025</p>
+          </div>
+          <div>
+            <img src={personal_logo} alt="personal logo" className="personal_footer_logo" />
+          </div>
         </footer>
       </div>
     </>

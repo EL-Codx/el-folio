@@ -4,7 +4,7 @@ export const Card = (props) => {
             <div className="card-content">
                 <div className="card-title">
                     <div>{props.logo}</div>
-                    <h2>{props.card_title}</h2>
+                    <h2 className="diff">{props.card_title}</h2>
                 </div>
                 <div className="card-body-content">
                     <p>{props.card_brief}</p>
