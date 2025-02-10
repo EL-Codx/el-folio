@@ -100,11 +100,21 @@
 .socials {
     margin-top: 15px;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.socials a {
+#mail {
+    font-size: 2.7rem;
+}
+
+#linkedin {
     font-size: 2.5rem;
+}
+
+#whatsapp {
+    font-size: 2.2rem;
 }
 
 /* nav icon */

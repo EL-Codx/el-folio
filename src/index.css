@@ -65,6 +65,7 @@ h1 {
 
   p {
     font-size: 0.875;
+    line-height: 1.5;
   }
 
   nav p, nav a {
@@ -73,8 +74,8 @@ h1 {
 
   .about {
     text-align: justify;
-    line-height: 2;
   }
+
 
 
   .personal_logo {
@@ -91,12 +92,8 @@ h1 {
   }
 
 
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
   img {
     cursor: pointer;
   }
+
+  
