@@ -11,18 +11,18 @@ export const Topnav = () => {
     }
 
     return (
-        <nav className="nav-bar">
+        <nav className="nav-bar" id="nav-bar">
             <div className="left-hold">
                 <img src={logo_nav} alt="personal logo" className="personal_logo"/>
                 <a href="https://github.com/EL-Codx?tab=repositories" target="_blank" className="hub">GitHub</a>
             </div>
             <div className="right-hold">
                 <div className={isOpen ? "bar active" : "bar"}>
-                    <a href="#">Home</a>
+                    <a href="#nav-bar">Home</a>
                     <a href="#service-id">Services</a>
                     {/* <a href="#">Profile</a> */}
                     <a href="#contact-info">Contact</a>
-                    <a id="hire">Hire Me!</a>
+                    <a href="#contact-info" id="hire">Hire Me!</a>
                 </div>
                 <div className="icon" onClick={togglemenu}>
                     <FaBars />

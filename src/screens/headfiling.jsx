@@ -1,6 +1,7 @@
 import React from "react";
 import '../assets/css/header.css'
 import me from '../assets/images/personal_pictures/image.jpg'
+import resume from '../assets/docs/resume.pdf'
 
 export const Headliner = () => {
     return (
@@ -13,9 +14,9 @@ export const Headliner = () => {
                     {/* <button className="btn-more">
                         Read more...
                     </button> */}
-                    <button className="btn-download">
+                    <a href={resume} download={resume} className="btn-download">
                         Download CV
-                    </button>
+                    </a>
                 </div>
             </div>
 

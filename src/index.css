@@ -23,7 +23,7 @@ a {
     font-size: 1rem;
 }
 
-button, #hire {
+button, #hire, .btn-download {
     padding: 10px 25px;
     font-size: 0.9rem;
     margin-top: 10px;
@@ -32,13 +32,13 @@ button, #hire {
     border: none;
 }
 
-button, #hire {
+button, #hire, .btn-download {
     font-weight: 700;
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
 
-button:hover, #hire:hover {
+button:hover, #hire:hover, .btn-download:hover {
     background:  linear-gradient(to right, var(--secondary-dark-color) 60%, var(--secondary-color));;
     cursor: pointer;
 }
